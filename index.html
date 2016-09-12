@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+  <!-- css -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="top_header">
+        <img src="header.jpg" width="100%" height=auto  />
+      </header><!-- /.primary-header -->
+      <main>
+        <div class="container">
+          <div class="section">
+            <h2 class="section__title">Welcome to Virtual Class Room!!! </h2>
+            <br><br><br>
+            <div class="section__content clearfix">
+              <div class="card effect__hover">
+                <div class="card__front">
+                  <span class="card__text"><strong>Student Login</strong></span>
+                </div>
+                <div class="card__back">
+                  <span class="card__btext">
+
+                    <form action = "student/student.html" method = "POST">
+                      Student Login:<br><br>
+                      Username: <input type = "text" name = "stud_id" maxlength = "10"> <br><br>
+                      Password: <input type = "password" name = "stud_pass" maxlength = "10"> <br><br>
+                      <input type = "submit" name = "student_login" value = "Std Login" >
+                      <br><br>
+                    </form>
+                  </span>
+                </div>
+              </div><!-- /card -->
+                
+              <div class="card effect__hover">
+                <div class="card__front">
+                  <span class="card__text"><strong>Teachers Login</strong></span>
+                </div>
+                <div class="card__back">
+                  <span class="card__btext">
+
+                    <form action = "teacher/teacher.html" method = "POST"> 
+                      Teacher Login: <br><br>
+                      Username: <input type = "text" name = "teacher_id" maxlength = "10"> <br><br>
+                      Password:   <input type = "password" name = "teacher_pass" maxlength = "10"> <br><br>
+                      <input type = "submit" name = "teacher_login" value = "Log in" >
+                      <br><br>
+                    </form>
+                  </span>
+                </div>
+              </div><!-- /card -->
+
+              <div class="card effect__hover">
+                <div class="card__front">
+                  <span class="card__text"><strong>Admin Login</strong></span>
+                </div>
+                <div class="card__back">
+                  <span class="card__btext">
+
+                    <form action = "admin/admin.html" method = "POST">
+                      Admin Login: <br><br>
+                      Username: <input type = "text" name = "admin_id" maxlength = "10"> <br><br>
+                      Password: <input type = "password" name = "admin_pass" maxlength = "10"> <br><br>
+                      <input type = "submit"  name = "admin_login" value = "Log in" >
+                      <br><br>
+                    </form>
+                  </span>
+                </div><!-- /card_back -->
+              </div><!-- /card_effect_hover -->
+            </div><!-- /card -->
+          </div><!-- /section -->
+        </div>
+      </main><!-- /main -->
+    </div><!-- /#wrapper -->
+    <footer id="the_footer">
+      <p>copyright@Computer_Engineer.</p>
+    </footer>
+  </body>
+</html>
