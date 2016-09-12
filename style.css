@@ -54,11 +54,19 @@ body {
 .card:nth-child(1) {
   margin-left: -3px;
   margin-right: 1px;
+  background: url("student.jpg");
+  background-repeat: no-repeat;
 }
 
-.card:nth-child(2),
+.card:nth-child(2) {
+    margin-right: 1px;
+    background: url("teacher.jpg");
+    background-repeat: no-repeat;
+}
 .card:nth-child(3) {
   margin-right: 1px;
+  background: url("admin.jpg");
+  background-repeat: no-repeat;
 }
 
 /* card fronts and backs */
@@ -76,7 +84,7 @@ body {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.3s;
-          transition: transform 2s;
+          transition: transform 3s;
           border-radius: 5px
 }
 
